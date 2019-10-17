@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\APP-master\\Auth\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
+            "outputFile": "D:\\Authnew\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-2\\files-2.1\\6d2bfc97c82d7a6ebc96b133829643fe\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\LENOVO\\.gradle\\caches\\transforms-2\\files-2.1\\6f1819e8a24de7b681beca4bd5f43c64\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-2\\files-2.1\\6ed6fdfab2a982b74126b4200ec48cce\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\LENOVO\\.gradle\\caches\\transforms-2\\files-2.1\\98602470e67aa6426d886b9bbcbce6a8\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

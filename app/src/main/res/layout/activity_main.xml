@@ -6,50 +6,88 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/background_image_one_signin" />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="219dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginBottom="104dp"
+        android:text="Login"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/MainEmail"
+        app:layout_constraintEnd_toEndOf="@+id/MainEmail"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/MainEmail"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
     <EditText
         android:id="@+id/MainEmail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="97dp"
-        android:hint = "Email"
+        android:layout_marginTop="240dp"
         android:ems="10"
+        android:hint="Email"
         android:inputType="textEmailAddress"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.555"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/MainPassword"
         android:layout_width="wrap_content"
-        android:hint = "Password"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="56dp"
         android:ems="10"
+        android:hint="Password"
         android:inputType="textPassword"
         app:layout_constraintEnd_toEndOf="@+id/MainEmail"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/MainEmail"
         app:layout_constraintTop_toBottomOf="@+id/MainEmail" />
 
     <Button
         android:id="@+id/MainLogin"
-        android:layout_width="wrap_content"
-        android:layout_height="36dp"
-        android:layout_marginStart="176dp"
-        android:layout_marginTop="25dp"
-        android:layout_marginEnd="147dp"
+        android:layout_width="110dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="304dp"
+        android:background="@android:color/holo_blue_light"
         android:text="Login"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/MainPassword" />
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/MainPassword"
+        app:layout_constraintHorizontal_bias="0.544"
+        app:layout_constraintStart_toStartOf="@+id/MainPassword"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <TextView
         android:id="@+id/MainRegister"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_width="118dp"
+        android:layout_height="32dp"
+        android:backgroundTint="@android:color/holo_blue_bright"
         android:text="Register"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_blue_bright"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
         app:layout_constraintEnd_toEndOf="@+id/MainLogin"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/MainLogin"
-        app:layout_constraintTop_toBottomOf="@+id/MainLogin" />
+        app:layout_constraintTop_toBottomOf="@+id/MainLogin"
+        app:layout_constraintVertical_bias="0.232" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
